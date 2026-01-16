@@ -5,9 +5,8 @@ import sidebar from "./sidebar.js";
 
 export default hopeTheme({
   hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
-
   author: {
-    name: "Mr.Hope",
+    name: "Mr.Guo",
     url: "https://mister-hope.com",
   },
 
@@ -52,10 +51,19 @@ export default hopeTheme({
     codeTabs: true,
     component: true,
     demo: true,
+
+    // 图片配置
+    // 启用 figure
     figure: true,
-    gfm: true,
+    // 启用图片懒加载
     imgLazyload: true,
+    // 启用图片标记
+    imgMark: true,
+    // 启用图片大小
     imgSize: true,
+    obsidianImgSize: true,
+
+    gfm: true,
     include: true,
     mark: true,
     markmap: true,
@@ -128,6 +136,7 @@ export default hopeTheme({
       category: "Announcements",
       categoryId: "DIC_kwDOG_Pt2M4COD69",
     },
+    blog: true,
 
     components: {
       components: ["Badge", "VPCard"],

@@ -16,12 +16,27 @@ export default sidebar({
       icon: "streamline-freehand-color:workflow-branch",
       prefix: "concurrent/",
       children: "structure",
+      collapsible: true,
     },
     {
       text: "Java-JVM进阶",
       icon: "material-icon-theme:java",
       prefix: "jvm/",
       children: "structure",
+    },
+    {
+      text: "Elasticsearch",
+      icon: "devicon:elasticsearch",
+      prefix: "elasticsearch/",
+      children: "structure",
+      collapsible: true,
+    },
+    {
+      text: "Linux",
+      icon: "devicon:linux",
+      prefix: "linux/",
+      children: "structure",
+      collapsible: true,
     },
     // {
     //   text: "幻灯片",
